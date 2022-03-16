@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+.centralizador {
+	display: flex;
+	size: 100em;
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+}
+.botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: black;
+}

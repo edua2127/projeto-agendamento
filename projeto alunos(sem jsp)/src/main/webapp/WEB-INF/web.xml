@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>projeto alunos(sem jsp)</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>menu.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ListarAlunos</display-name>
+    <servlet-name>ListarAlunos</servlet-name>
+    <servlet-class>br.com.projeto.ListarAlunos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListarAlunos</servlet-name>
+    <url-pattern>/ListarAlunos</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AlunoExcluir</display-name>
+    <servlet-name>AlunoExcluir</servlet-name>
+    <servlet-class>br.com.projeto.AlunoExcluir</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AlunoExcluir</servlet-name>
+    <url-pattern>/AlunoExcluir</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AlunoSalvar</display-name>
+    <servlet-name>AlunoSalvar</servlet-name>
+    <servlet-class>br.com.projeto.AlunoSalvar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AlunoSalvar</servlet-name>
+    <url-pattern>/AlunoSalvar</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AlunoEditar</display-name>
+    <servlet-name>AlunoEditar</servlet-name>
+    <servlet-class>br.com.projeto.AlunoEditar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AlunoEditar</servlet-name>
+    <url-pattern>/AlunoEditar</url-pattern>
+  </servlet-mapping>
+</web-app>
